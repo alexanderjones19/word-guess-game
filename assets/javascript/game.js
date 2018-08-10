@@ -82,7 +82,7 @@ var game = {
                 this.wins ++
                 $('#win-counter').text(this.wins);
                 $('.villain-picture').empty();
-                $('.villain-picture').append('<img id="picture" src="assets/images/' + this.currentWord.image + '" />');
+                $('.villain-picture').append('<img class="img-fluid" id="picture" src="assets/images/' + this.currentWord.image + '" />');
                 $('#villain-name').empty();
                 $('#villain-name').text(this.currentWord.word);
                 this.nextWord();

@@ -2,6 +2,20 @@ body {
     background-color: #21201e;
 }
 
+#right-column {
+    margin-top: 30px;
+}
+
+#left-column {
+    margin-top: 30px;
+}
+
+.game-cards {
+    border: solid 2px #fefefe;
+    height: 650px;
+    padding-top: 20px;
+}
+
 .game-title {
     font-family: 'Bigelow Rules', cursive;
     font-size: 72px;
@@ -24,6 +38,8 @@ body {
 #villain-name {
     font-family: 'Hanalei Fill', cursive;
     letter-spacing: 5px;
+    padding-top: 40px;
+    text-align: center;
     color: #fefefe;
 }
 
@@ -32,6 +48,12 @@ body {
     color: #fefefe;
 }
 
+.villain-picture {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #picture {
-    width: 500px;
+    max-width: 100%;
+    height: auto;
 }
